@@ -2,7 +2,7 @@
   "sources": [
     {
       "repo": "blazejewicz/functiongemma-270m-it-gemma-teacher",
-      "revision": "32b6194404c0241219dc7d57e09ea6f42027c117",
+      "revision": "ea64d5a3ae6f0ce88364404bd1ebc40970e7c400",
       "folder": "."
     }
   ],
@@ -17,6 +17,7 @@
     "assets/c4-containers.svg",
     "assets/c4-context.png",
     "assets/c4-context.svg",
+    "assets/gemma-teacher.jpg",
     "chat_template.jinja",
     "config.json",
     "generation_config.json",
