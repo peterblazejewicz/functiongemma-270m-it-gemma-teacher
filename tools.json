@@ -1,0 +1,214 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "set_operation_language",
+      "description": "Set the language of the menu. Synonyms: język menu, język konfiguracji, menu language.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "enum": ["English", "Polish"],
+            "description": "Target configuration operation language."
+          }
+        },
+        "required": ["value"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_teacher_language",
+      "description": "Set the language the teacher explains in. Synonyms: język nauczyciela, język wyjaśnień, explanation language.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "enum": ["English", "Polish"],
+            "description": "Language used for teacher explanations."
+          }
+        },
+        "required": ["value"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_teacher_speed",
+      "description": "Set the speed of the teacher's voice. Synonyms: tempo mowy, prędkość, wolniej, normalnie, slower, normal speed.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "enum": ["Normal", "Slower"],
+            "description": "Speed of the teacher voice."
+          }
+        },
+        "required": ["value"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_explanation_length",
+      "description": "Set the length of the explanations. Synonyms: długość wyjaśnień, krótko, zwięźle, szczegółowo, brief, detailed.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "enum": ["Normal", "Brief", "Detailed"],
+            "description": "Length of explanations."
+          }
+        },
+        "required": ["value"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_learner_level",
+      "description": "Set the learner's level. Synonyms: poziom, poziom trudności, początkujący, średnio zaawansowany, łatwiej, trudniej, beginner, intermediate.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "enum": ["Beginner", "Intermediate"],
+            "description": "Target learner proficiency."
+          }
+        },
+        "required": ["value"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_learner_language",
+      "description": "Set the language the learner speaks in lessons. Synonyms: język, w którym mówię, mój język, the language I speak.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "enum": ["English", "Polish"],
+            "description": "Language spoken by the learner."
+          }
+        },
+        "required": ["value"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_menu_control",
+      "description": "Set whether the menu is controlled by keys or by speech. Synonyms: sterowanie menu, przyciski, głos, keys, voice.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "enum": ["Keys", "Speaking"],
+            "description": "Input mode for settings interaction."
+          }
+        },
+        "required": ["value"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "set_reset",
+      "description": "Keep the settings, or reset them to the defaults when leaving the menu. Synonyms: reset, zachowaj ustawienia, przywróć ustawienia domyślne.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "enum": ["Keep", "ResetOnLeave"],
+            "description": "Factory reset choice."
+          }
+        },
+        "required": ["value"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "navigate",
+      "description": "Move to the next or previous settings card, or change the value of this card. Synonyms: dalej, następna, wstecz, poprzednia, zmień.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "direction": {
+            "type": "string",
+            "enum": ["next", "previous", "change"],
+            "description": "Navigation direction or cycle action."
+          }
+        },
+        "required": ["direction"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "query_card",
+      "description": "Say what a settings card holds now, or which values it offers. Synonyms: jaki jest poziom, jakie są opcje, what is the speed.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "card": {
+            "type": "string",
+            "enum": [
+              "OperationLanguage",
+              "TeacherLanguage",
+              "TeacherSpeed",
+              "ExplanationLength",
+              "Level",
+              "LearnerLanguage",
+              "MenuControl",
+              "Reset"
+            ],
+            "description": "Target settings card."
+          },
+          "query_type": {
+            "type": "string",
+            "enum": ["read_card", "read_choices"],
+            "description": "Type of query to perform."
+          }
+        },
+        "required": ["card", "query_type"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "session_action",
+      "description": "Repeat what was said last, or give help. Synonyms: powtórz, jeszcze raz, pomoc, repeat, help.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string",
+            "enum": ["repeat", "help"],
+            "description": "Session action command."
+          }
+        },
+        "required": ["action"]
+      }
+    }
+  }
+]

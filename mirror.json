@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "repo": "blazejewicz/functiongemma-270m-it-gemma-teacher",
+      "revision": "32b6194404c0241219dc7d57e09ea6f42027c117",
+      "folder": "."
+    }
+  ],
+  "files": [
+    "GEMMA_PROHIBITED_USE_POLICY.md",
+    "GEMMA_TERMS_OF_USE.md",
+    "NOTICE",
+    "added_tokens.json",
+    "assets/c4-components.png",
+    "assets/c4-components.svg",
+    "assets/c4-containers.png",
+    "assets/c4-containers.svg",
+    "assets/c4-context.png",
+    "assets/c4-context.svg",
+    "chat_template.jinja",
+    "config.json",
+    "generation_config.json",
+    "quick-start.ipynb",
+    "special_tokens_map.json",
+    "tokenizer.json",
+    "tokenizer_config.json",
+    "tools.json"
+  ]
+}

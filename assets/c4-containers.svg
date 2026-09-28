@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1460" height="760" viewBox="0 0 1460 760" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, 'Yu Gothic UI', 'Noto Sans JP', sans-serif">
+<defs><marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A94A6"/></marker></defs>
+<rect x="320" y="40" width="1110" height="690" rx="18" fill="none" stroke="#8A94A6" stroke-width="2" stroke-dasharray="10 7"/>
+<rect x="348.0" y="25.5" width="246.8" height="29" rx="14.5" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="471.4" y="45.4" font-size="15" font-weight="700" fill="#1F2937" text-anchor="middle">Screen-free voice appliance</text>
+<circle cx="145.0" cy="114" r="24" fill="#1F6FB2" stroke="#8FB8DE" stroke-width="1.5"/>
+<rect x="30" y="130.8" width="230" height="149.2" rx="24" fill="#1F6FB2" stroke="#8FB8DE" stroke-width="1.5"/>
+<text x="145.0" y="168.8" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Person</text>
+<text x="145.0" y="194.8" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">Speaks, listens,</text>
+<text x="145.0" y="213.3" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">presses a key</text>
+<rect x="370" y="110" width="270" height="170" rx="14" fill="#2F80D1" stroke="#1C5FA3" stroke-width="1.5"/>
+<text x="505.0" y="146.0" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Speech input</text>
+<text x="505.0" y="170.0" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle">[speakerphone + recognizers]</text>
+<text x="505.0" y="200.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">1. Closed grammar: the fixed</text>
+<text x="505.0" y="218.5" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">phrases; else open speech</text>
+<text x="505.0" y="237.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">to text</text>
+<rect x="760" y="110" width="290" height="190" rx="14" fill="#2F80D1" stroke="#1C5FA3" stroke-width="1.5"/>
+<text x="905.0" y="146.0" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Command reader</text>
+<text x="905.0" y="170.0" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle">[tiers 2 and 3, gate]</text>
+<text x="905.0" y="200.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">One menu action,</text>
+<text x="905.0" y="218.5" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">or none</text>
+<rect x="1120" y="110" width="270" height="190" rx="14" fill="#E8710A" stroke="#B35400" stroke-width="3"/>
+<text x="1255.0" y="146.0" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Command model</text>
+<text x="1255.0" y="170.0" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle">[this model, llama.cpp server]</text>
+<text x="1255.0" y="200.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">Returns one call,</text>
+<text x="1255.0" y="218.5" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">or no call</text>
+<rect x="370" y="470" width="270" height="170" rx="14" fill="#2F80D1" stroke="#1C5FA3" stroke-width="1.5"/>
+<text x="505.0" y="506.0" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Keys</text>
+<text x="505.0" y="530.0" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle">[hardware]</text>
+<text x="505.0" y="560.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">Confirm, cancel,</text>
+<text x="505.0" y="578.5" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">leave</text>
+<rect x="760" y="470" width="290" height="190" rx="14" fill="#2F80D1" stroke="#1C5FA3" stroke-width="1.5"/>
+<text x="905.0" y="506.0" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Menu host</text>
+<text x="905.0" y="530.0" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle">[application]</text>
+<text x="905.0" y="560.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">Holds the settings cards</text>
+<text x="905.0" y="578.5" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">and their state; asks for</text>
+<text x="905.0" y="597.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">confirmation</text>
+<rect x="1120" y="470" width="270" height="170" rx="14" fill="#2F80D1" stroke="#1C5FA3" stroke-width="1.5"/>
+<text x="1255.0" y="506.0" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Speech output</text>
+<text x="1255.0" y="530.0" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle">[text-to-speech]</text>
+<text x="1255.0" y="560.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">Reads the cards and</text>
+<text x="1255.0" y="578.5" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">the result aloud</text>
+<path d="M260.0,195.0 L370.0,195.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="279.9" y="181.0" width="70.2" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="315.0" y="200.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">speaks</text>
+<path d="M640.0,195.0 L760.0,195.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="626.4" y="181.0" width="147.2" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="700.0" y="200.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">utterance (text)</text>
+<path d="M1050.0,170.0 L1120.0,170.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="999.9" y="156.0" width="170.3" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="1085.0" y="175.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">undecided utterance</text>
+<path d="M1120.0,245.0 L1050.0,245.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="1023.0" y="231.0" width="124.1" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="1085.0" y="250.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">proposed call</text>
+<path d="M905.0,300.0 L905.0,470.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="839.1" y="371.0" width="131.8" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="905.0" y="390.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">checked action</text>
+<path d="M190.0,280.0 L190.0,555.0 L370.0,555.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="151.1" y="431.0" width="77.9" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="190.0" y="450.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">presses</text>
+<path d="M640.0,555.0 L760.0,555.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<path d="M1050.0,555.0 L1120.0,555.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="1038.3" y="541.0" width="93.3" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="1085.0" y="560.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">card text</text>
+<path d="M1255.0,640.0 L1255.0,700.0 L90.0,700.0 L90.0,280.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="291.8" y="686.0" width="62.5" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="323.0" y="705.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">voice</text>
+</svg>

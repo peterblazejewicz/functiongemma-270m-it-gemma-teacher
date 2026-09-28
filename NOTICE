@@ -1,0 +1,16 @@
+Gemma is provided under and subject to the Gemma Terms of Use found at ai.google.dev/gemma/terms
+
+This repository holds a Model Derivative of Gemma: a full fine-tune of google/functiongemma-270m-it
+(revision 39eccb091651513a5dfb56892d3714c1b5b8276c).
+
+Modified files: model.safetensors (the weights, changed by the fine-tune), config.json and
+generation_config.json (written by the fine-tune), and the GGUF files (converted from the fine-tuned
+weights). The tokenizer files and chat_template.jinja are those of the base model, unchanged.
+tools.json and quick-start.ipynb are new files of this project.
+
+Use of this model is subject to the use restrictions of the Gemma Terms of Use, section 3.2, and of
+the Gemma Prohibited Use Policy: https://ai.google.dev/gemma/prohibited_use_policy
+The Gemma Terms of Use: https://ai.google.dev/gemma/terms
+
+A copy of the Gemma Terms of Use is in GEMMA_TERMS_OF_USE.md, and a copy of the Gemma Prohibited
+Use Policy is in GEMMA_PROHIBITED_USE_POLICY.md, both in this repository.

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="920" viewBox="0 0 1440 920" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, 'Yu Gothic UI', 'Noto Sans JP', sans-serif">
+<defs><marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A94A6"/></marker></defs>
+<rect x="30" y="300" width="1000" height="330" rx="18" fill="none" stroke="#8A94A6" stroke-width="2" stroke-dasharray="10 7"/>
+<rect x="58.0" y="285.5" width="139.5" height="29" rx="14.5" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="127.8" y="305.4" font-size="15" font-weight="700" fill="#1F2937" text-anchor="middle">Command reader</text>
+<rect x="90" y="60" width="300" height="170" rx="14" fill="#2F80D1" stroke="#1C5FA3" stroke-width="1.5"/>
+<text x="240.0" y="96.0" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Speech input</text>
+<text x="240.0" y="120.0" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle">[1. closed grammar]</text>
+<text x="240.0" y="150.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">The fixed command phrases</text>
+<text x="240.0" y="168.5" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">first; else open speech</text>
+<text x="240.0" y="187.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">to text</text>
+<rect x="90" y="400" width="260" height="170" rx="14" fill="#9CC7F2" stroke="#5A93CC" stroke-width="1.5"/>
+<text x="220.0" y="436.0" font-size="19" font-weight="700" fill="#0B2545" text-anchor="middle">2. Command words</text>
+<text x="220.0" y="460.0" font-size="13" font-weight="400" fill="#0B2545" text-anchor="middle">[table]</text>
+<text x="220.0" y="490.0" font-size="14" font-weight="400" fill="#0B2545" text-anchor="middle">Reads most commands;</text>
+<text x="220.0" y="508.5" font-size="14" font-weight="400" fill="#0B2545" text-anchor="middle">refuses words that</text>
+<text x="220.0" y="527.0" font-size="14" font-weight="400" fill="#0B2545" text-anchor="middle">clearly ask for nothing</text>
+<rect x="420" y="400" width="260" height="170" rx="14" fill="#9CC7F2" stroke="#5A93CC" stroke-width="1.5"/>
+<text x="550.0" y="436.0" font-size="19" font-weight="700" fill="#0B2545" text-anchor="middle">3. Proposer</text>
+<text x="550.0" y="460.0" font-size="13" font-weight="400" fill="#0B2545" text-anchor="middle">[asks the model]</text>
+<text x="550.0" y="490.0" font-size="14" font-weight="400" fill="#0B2545" text-anchor="middle">Only when tier 2</text>
+<text x="550.0" y="508.5" font-size="14" font-weight="400" fill="#0B2545" text-anchor="middle">cannot decide</text>
+<rect x="740" y="400" width="260" height="170" rx="14" fill="#9CC7F2" stroke="#5A93CC" stroke-width="1.5"/>
+<text x="870.0" y="436.0" font-size="19" font-weight="700" fill="#0B2545" text-anchor="middle">Gate</text>
+<text x="870.0" y="460.0" font-size="13" font-weight="400" fill="#0B2545" text-anchor="middle">[check]</text>
+<text x="870.0" y="490.0" font-size="14" font-weight="400" fill="#0B2545" text-anchor="middle">Checks the call</text>
+<text x="870.0" y="508.5" font-size="14" font-weight="400" fill="#0B2545" text-anchor="middle">against the menu state</text>
+<text x="870.0" y="527.0" font-size="14" font-weight="400" fill="#0B2545" text-anchor="middle">and the words said</text>
+<rect x="1110" y="60" width="300" height="190" rx="14" fill="#E8710A" stroke="#B35400" stroke-width="3"/>
+<text x="1260.0" y="96.0" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Command model</text>
+<text x="1260.0" y="120.0" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle">[this model]</text>
+<text x="1260.0" y="150.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">One utterance +</text>
+<text x="1260.0" y="168.5" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">the declarations in;</text>
+<text x="1260.0" y="187.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">one call, or none out</text>
+<rect x="740" y="720" width="260" height="170" rx="14" fill="#2F80D1" stroke="#1C5FA3" stroke-width="1.5"/>
+<text x="870.0" y="756.0" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Menu host</text>
+<text x="870.0" y="780.0" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle">[application]</text>
+<text x="870.0" y="810.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">Changes the setting;</text>
+<text x="870.0" y="828.5" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">a change away from a safe</text>
+<text x="870.0" y="847.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">value waits for confirmation</text>
+<path d="M220.0,230.0 L220.0,400.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="192.6" y="301.0" width="54.8" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="220.0" y="320.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">text</text>
+<path d="M350.0,485.0 L420.0,485.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="338.4" y="471.0" width="93.3" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="385.0" y="490.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">undecided</text>
+<path d="M510.0,400.0 L510.0,150.0 L1110.0,150.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="735.6" y="136.0" width="208.8" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="840.0" y="155.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">utterance + declarations</text>
+<path d="M1260.0,250.0 L1260.0,340.0 L610.0,340.0 L610.0,400.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="955.0" y="326.0" width="154.9" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="1032.5" y="345.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">one call, or none</text>
+<path d="M680.0,485.0 L740.0,485.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="682.6" y="471.0" width="54.8" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="710.0" y="490.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">call</text>
+<path d="M870.0,570.0 L870.0,720.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="781.0" y="631.0" width="178.0" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="870.0" y="650.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">accepted: one action</text>
+<path d="M1000.0,485.0 L1070.0,485.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="1068.6" y="471.0" width="362.8" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="1250.0" y="490.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">refused: no change, the person says it again</text>
+<path d="M220.0,570.0 L220.0,805.0 L740.0,805.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="414.1" y="791.0" width="131.8" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="480.0" y="810.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">decided action</text>
+</svg>

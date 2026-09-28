@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="280" viewBox="0 0 1600 280" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, 'Yu Gothic UI', 'Noto Sans JP', sans-serif">
+<defs><marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A94A6"/></marker></defs>
+<circle cx="155.0" cy="64" r="24" fill="#1F6FB2" stroke="#8FB8DE" stroke-width="1.5"/>
+<rect x="30" y="80.8" width="250" height="159.2" rx="24" fill="#1F6FB2" stroke="#8FB8DE" stroke-width="1.5"/>
+<text x="155.0" y="118.8" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Person</text>
+<text x="155.0" y="144.8" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">Speaks English or Polish;</text>
+<text x="155.0" y="163.3" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">eyes and hands are busy</text>
+<rect x="560" y="50" width="340" height="170" rx="14" fill="#1565C0" stroke="#0D47A1" stroke-width="1.5"/>
+<text x="730.0" y="86.0" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Screen-free voice appliance</text>
+<text x="730.0" y="118.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">A speakerphone with a few keys.</text>
+<text x="730.0" y="136.5" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">Reads its settings menu</text>
+<text x="730.0" y="155.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">aloud</text>
+<rect x="1230" y="50" width="340" height="170" rx="14" fill="#E8710A" stroke="#B35400" stroke-width="3"/>
+<text x="1400.0" y="86.0" font-size="19" font-weight="700" fill="#FFFFFF" text-anchor="middle">Command model</text>
+<text x="1400.0" y="110.0" font-size="13" font-weight="400" fill="#FFFFFF" text-anchor="middle">[this model]</text>
+<text x="1400.0" y="140.0" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">Reads one utterance: one</text>
+<text x="1400.0" y="158.5" font-size="14" font-weight="400" fill="#FFFFFF" text-anchor="middle">declared call, or no call</text>
+<path d="M280.0,115.0 L560.0,115.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="354.1" y="101.0" width="131.8" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="420.0" y="120.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">says a command</text>
+<path d="M560.0,175.0 L280.0,175.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="331.0" y="161.0" width="178.0" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="420.0" y="180.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">reads the menu aloud</text>
+<path d="M900.0,100.0 L1230.0,100.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="929.8" y="86.0" width="270.4" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="1065.0" y="105.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">one utterance + the declarations</text>
+<path d="M1230.0,175.0 L900.0,175.0" fill="none" stroke="#8A94A6" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#head)"/>
+<rect x="976.0" y="161.0" width="178.0" height="28" rx="14.0" fill="#F3F4F6" stroke="#8A94A6" stroke-width="1"/>
+<text x="1065.0" y="180.0" font-size="14" font-weight="400" fill="#1F2937" text-anchor="middle">one call, or no call</text>
+</svg>
