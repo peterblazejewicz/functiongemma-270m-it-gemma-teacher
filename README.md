@@ -4,6 +4,8 @@
 
 # FunctionGemma 270M — voice commands of a screen-free appliance (English & Polish) — v6
 
+<img src="https://raw.githubusercontent.com/peterblazejewicz/functiongemma-270m-it-gemma-teacher/main/assets/gemma-teacher.jpg" alt="A learner at a desk speaks to Gemma Teacher, a round, screen-free speakerphone with a few keys; a Japanese notebook lies beside it" width="900">
+
 A full fine-tune of **Google's FunctionGemma 270M**
 ([`google/functiongemma-270m-it`](https://huggingface.co/google/functiongemma-270m-it), revision
 `39eccb091651513a5dfb56892d3714c1b5b8276c`) that reads what a person says to the settings menu of a
@@ -198,7 +200,7 @@ each repeated pattern. No native speaker reviewed the data.
 | `functiongemma-270m-it-gemma-teacher-v6-q8_0.gguf` | GGUF Q8_0; sha256 `81ca79d3afffc41a5732057e241a8329ac0098e970dd32529ecf5af112e37510` |
 | `quick-start.ipynb` | The Colab notebook of the Quick start |
 | `NOTICE`, `GEMMA_TERMS_OF_USE.md`, `GEMMA_PROHIBITED_USE_POLICY.md` | The Gemma notice and copies of the Gemma terms |
-| `assets/` | The three diagrams of section 1 (the card shows them from the GitHub mirror) |
+| `assets/` | The image of the appliance and the three diagrams of section 1 (the card shows them from the GitHub mirror) |
 
 ## 7. References
 
