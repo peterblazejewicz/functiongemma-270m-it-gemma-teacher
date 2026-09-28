@@ -36,7 +36,8 @@ The files are gated: first, click **Agree and get access** on
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peterblazejewicz/functiongemma-270m-it-gemma-teacher/blob/main/quick-start.ipynb)
 
-The notebook loads the model with Transformers on the free CPU runtime, and you type what a person would say to
+The notebook loads the model with Transformers on the free CPU runtime, or on a GPU runtime (T4), which answers
+faster, and you type what a person would say to
 the appliance. Its first cell tells you how to give it your token.
 
 ### On your computer: Transformers
